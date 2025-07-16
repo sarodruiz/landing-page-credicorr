@@ -5,7 +5,7 @@ function InfoSection() {
         {/* Texto institucional */}
         <div>
           <h2 className="text-2xl md:text-3xl font-bold text-blue-900 mb-4">
-            Conocenos: CREDICORR es confianza y trayectoria
+            CREDICORR es confianza y trayectoria
           </h2>
           <p className="text-gray-800 text-base md:text-lg mb-4">
             Desde nuestra oficina en San Justo, llevamos más de 20 años
@@ -15,9 +15,9 @@ function InfoSection() {
             100% online.
           </p>
           <ul className="text-blue-800 text-sm md:text-base list-disc list-inside">
-            <li>Presencial o digital: vos elegís cómo te atendemos</li>
-            <li>Trato humano, sin complicaciones ni vueltas</li>
-            <li>Más de 2 décadas de experiencia</li>
+            <li>Presencial o digital: vos elegís</li>
+            <li>Sin complicaciones ni vueltas</li>
+            <li>Respuestas en 24 horas</li>
           </ul>
         </div>
 

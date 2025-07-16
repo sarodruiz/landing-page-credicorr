@@ -12,7 +12,7 @@ function ContactSection() {
         <div className="grid md:grid-cols-2 gap-12">
           {/* Formulario de contacto */}
           <form
-            action="https://formspree.io/f/XXXXXXXX"
+            action="https://formspree.io/f/XXXXXXXX" // Reemplazá con tu endpoint
             method="POST"
             className="grid gap-6 text-left"
           >
@@ -69,7 +69,7 @@ function ContactSection() {
 
             <button
               type="submit"
-              className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-6 rounded text-lg transition"
+              className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-6 rounded text-lg font-semibold transform hover:scale-105 transition-transform duration-200"
             >
               Enviar mensaje
             </button>
