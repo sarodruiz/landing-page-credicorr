@@ -33,8 +33,7 @@ function HeroSection() {
           </p>
 
           <p className="text-sm md:text-base text-gray-700 italic mb-6 flex items-center justify-center md:justify-start">
-            Más de 20 años brindando soluciones financieras con honestidad y
-            confianza.
+            Más de 20 años brindando soluciones financieras.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center md:justify-start items-center gap-4">
