@@ -5,7 +5,7 @@ function InfoSection() {
         {/* Texto institucional */}
         <div>
           <h2 className="text-2xl md:text-3xl font-bold text-blue-900 mb-4">
-            CREDICORR es confianza y trayectoria
+            CREDICORR es honestidad y confianza
           </h2>
           <p className="text-gray-800 text-base md:text-lg mb-4">
             Desde nuestra oficina en San Justo, llevamos más de 20 años

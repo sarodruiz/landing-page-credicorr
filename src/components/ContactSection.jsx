@@ -55,7 +55,7 @@ function ContactSection() {
                 htmlFor="mensaje"
                 className="block text-sm font-medium text-blue-900 mb-1"
               >
-                Mensaje <span className="text-red-500">*</span>
+                Consulta <span className="text-red-500">*</span>
               </label>
               <textarea
                 name="mensaje"
@@ -71,7 +71,7 @@ function ContactSection() {
               type="submit"
               className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-6 rounded text-lg font-semibold transform hover:scale-105 transition-transform duration-200"
             >
-              Enviar mensaje
+              Enviar consulta
             </button>
           </form>
 

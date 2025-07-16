@@ -43,7 +43,7 @@ function InfoSection() {
               </svg>
             </div>
             <h4 className="font-semibold text-lg mb-2 text-blue-900">
-              Firma digital desde tu celular
+              Desde tu celular
             </h4>
             <p className="text-sm text-gray-700">
               Todo el proceso puede resolverse desde tu celular, de forma
