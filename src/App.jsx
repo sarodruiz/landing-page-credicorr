@@ -3,11 +3,13 @@ import InfoSection from "./components/InfoSection";
 import ServicesSection from "./components/ServicesSection";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
+import FeaturesSection from "./components/FeaturesSection";
 
 function App() {
   return (
     <main className="font-sans bg-white text-gray-800">
       <HeroSection />
+      <FeaturesSection />
       <InfoSection />
       <ServicesSection />
       <ContactSection />
