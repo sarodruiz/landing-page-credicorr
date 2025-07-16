@@ -1,6 +1,6 @@
 function InfoSection() {
   return (
-    <section className="bg-white py-12 px-6 md:px-16 text-center md:text-left">
+    <section className="bg-green-50 py-12 px-6 md:px-16 text-center md:text-left">
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8 items-center">
         {/* Texto institucional */}
         <div>
