@@ -12,8 +12,8 @@ function App() {
       <ServicesSection />
       <ContactSection />
       <a
-        href="https://wa.me/5491156995665" // reemplazá con el número real
-        className="fixed bottom-4 right-4 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition duration-200 flex items-center justify-center"
+        href="https://wa.me/5491156995665"
+        className="fixed bottom-4 right-4 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-200 flex items-center justify-center"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="WhatsApp CREDICORR"

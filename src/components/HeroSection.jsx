@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet";
 
 function HeroSection() {
   return (
-    <section className="bg-blue-50 py-10 px-6 md:py-20 md:px-12 text-center md:text-left">
+    <section className="bg-blue-50 py-12 px-6 md:py-24 md:px-16">
       <Helmet>
         <title>CREDICORR | Tu préstamo, más cerca de lo que pensás</title>
         <meta
@@ -15,40 +15,47 @@ function HeroSection() {
         />
       </Helmet>
 
-      <div className="max-w-5xl mx-auto flex flex-col-reverse md:flex-row items-center gap-8">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
         {/* Texto */}
-        <div className="md:w-1/2">
-          <h1 className="text-2xl font-extrabold tracking-wide text-blue-900 mb-2">
+        <div className="md:w-1/2 text-center md:text-left">
+          <h1 className="text-3xl font-extrabold tracking-wide text-blue-900 mb-2">
             <span className="text-green-600">$</span>
-            <span>CREDICORR</span>
+            <span className="ml-1">CREDICORR</span>
           </h1>
-          <h2 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
+
+          <h2 className="text-4xl md:text-5xl font-bold text-blue-900 leading-tight mb-4">
             Tu préstamo, más cerca de lo que pensás
           </h2>
-          <p className="mt-4 text-lg md:text-xl text-blue-800">
+
+          <p className="text-lg md:text-xl text-blue-800 mb-4">
             Accedé a préstamos rápidos, seguros y adaptados a tus necesidades.
-            Sin complicaciones.
+            Sin trámites complicados ni demoras.
           </p>
-          <p className="mt-2 text-sm md:text-base text-gray-700 italic">
+
+          <p className="text-sm md:text-base text-gray-700 italic mb-6 flex items-center justify-center md:justify-start">
             Más de 20 años brindando soluciones financieras con honestidad y
             confianza.
           </p>
-          <a
-            href="https://wa.me/549XXXXXXXXXX"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-6 inline-block bg-green-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-green-700 transition duration-200"
-          >
-            Asesorate gratis
-          </a>
+
+          <div className="flex flex-col sm:flex-row justify-center md:justify-start items-center gap-4">
+            <a
+              href="https://wa.me/549XXXXXXXXXX"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg text-lg font-semibold transition-all duration-200 transform hover:scale-105"
+              aria-label="Enviar mensaje por WhatsApp para solicitar asesoramiento"
+            >
+              Asesorate gratis
+            </a>
+          </div>
         </div>
 
         {/* Imagen */}
         <div className="md:w-1/2">
           <img
             src="assets/hero-image.png"
-            alt="Persona usando celular de forma confiada"
-            className="w-full h-auto rounded-lg shadow-lg object-cover"
+            alt="Cliente satisfecho usando su celular para solicitar un préstamo desde CREDICORR"
+            className="w-full h-auto max-h-[500px] rounded-xl shadow-lg object-cover"
           />
         </div>
       </div>

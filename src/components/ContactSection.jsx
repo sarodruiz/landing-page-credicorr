@@ -12,7 +12,7 @@ function ContactSection() {
         <div className="grid md:grid-cols-2 gap-12">
           {/* Formulario de contacto */}
           <form
-            action="https://formspree.io/f/XXXXXXXX" // Reemplazá con tu endpoint
+            action="https://formspree.io/f/XXXXXXXX"
             method="POST"
             className="grid gap-6 text-left"
           >
