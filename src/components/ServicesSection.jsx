@@ -11,11 +11,10 @@ function ServicesSection() {
           <div className="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition">
             <div className="text-green-600 mb-4"></div>
             <h3 className="font-semibold text-lg mb-2 text-blue-900">
-              Préstamos para jubilados
+              Créditos personales
             </h3>
             <p className="text-sm text-gray-700">
-              Soluciones simples y accesibles con validación ANSES y todos los
-              bancos.
+              Financiación flexible para quienes necesitan resolver con rapidez.
             </p>
           </div>
 
@@ -23,10 +22,11 @@ function ServicesSection() {
           <div className="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition">
             <div className="text-green-600 mb-4"></div>
             <h3 className="font-semibold text-lg mb-2 text-blue-900">
-              Créditos personales
+              Préstamos ANSES
             </h3>
             <p className="text-sm text-gray-700">
-              Financiación flexible para quienes necesitan resolver con rapidez.
+              Pensado para jubilados. Tramitamos tu préstamo con cualquier
+              banco, de manera segura y simple.
             </p>
           </div>
 
