@@ -9,8 +9,8 @@ function InfoSection() {
           </h2>
           <p className="text-gray-800 text-base md:text-lg mb-4">
             Desde nuestra oficina en San Justo, llevamos más de 20 años
-            brindando soluciones financieras a jubilados, docentes, municipales
-            y personal de distintas instituciones. Nos especializamos en
+            brindando soluciones financieras a jubilados, pensionados, docentes,
+            municipales y personal de las fuerzas armadas. Nos especializamos en
             créditos ANSES con firma digital, atención personalizada y gestión
             100% online.
           </p>
