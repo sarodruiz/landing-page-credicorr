@@ -1,6 +1,6 @@
 function InfoSection() {
   return (
-    <section className="bg-white py-16 px-6 md:px-16">
+    <section className="bg-slate-50 py-16 px-6 md:px-16">
       <div className="max-w-5xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left">
           {/* Feature 1 */}
