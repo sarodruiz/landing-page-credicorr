@@ -1,37 +1,39 @@
 function Footer() {
   return (
-    <footer className="bg-blue-900 text-white py-6 px-6 md:px-16">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-6 items-center">
-        {/* Identidad institucional */}
+    <footer className="bg-blue-900 text-white py-10 px-6 md:px-16">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+        {/* Logo / Marca */}
         <div className="text-center md:text-left">
-          <h3 className="text-lg font-semibold mb-2">CREDICORR</h3>
-          <p className="text-sm">
-            Más de 20 años brindando soluciones financieras a jubilados,
-            docentes y trabajadores con honestidad y confianza.
+          <h3 className="text-xl font-bold mb-2">CREDICORR</h3>
+          <p className="text-sm text-blue-200">
+            Soluciones financieras claras y accesibles.
           </p>
         </div>
 
-        {/* Contacto final */}
+        {/* Ubicación */}
+        <div className="text-center">
+          <h4 className="font-semibold text-base mb-2">Ubicación</h4>
+          <p className="text-sm text-blue-100">📍 San Justo, Buenos Aires</p>
+        </div>
+
+        {/* Contacto */}
         <div className="text-center md:text-right">
-          <p className="text-sm mb-2">📍 San Justo, Buenos Aires</p>
-          <p className="text-sm mb-2">
+          <h4 className="font-semibold text-base mb-2">Contacto</h4>
+          <p className="text-sm text-blue-100">📞 4484-5275</p>
+          <p className="text-sm text-blue-100">📱 11-2515-0062</p>
+          <p className="text-sm text-blue-100">
             📧{" "}
-            <a
-              href="mailto:haberes@reggiodc.com"
-              className="underline text-white"
-            >
-              haberes@reggiodc.com
+            <a href="mailto:consultas@credicorr.com" className="underline">
+              consultas@credicorr.com
             </a>
           </p>
-          <p className="text-sm mb-2">📞 4484-5275</p>
-          <p className="text-sm">📱 11-2515-0062</p>
         </div>
       </div>
 
       {/* Línea inferior */}
-      <div className="mt-6 text-center text-xs text-blue-200">
+      <div className="mt-10 border-t border-blue-800 pt-4 text-center text-xs text-blue-300">
         &copy; {new Date().getFullYear()} CREDICORR · Todos los derechos
-        reservados
+        reservados · Buenos Aires, Argentina.
       </div>
     </footer>
   );
