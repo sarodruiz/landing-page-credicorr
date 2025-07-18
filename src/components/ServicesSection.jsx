@@ -14,8 +14,8 @@ function ServicesSection() {
               Préstamos para jubilados
             </h3>
             <p className="text-sm text-gray-700">
-              Soluciones simples y accesibles con validación ANSES y firma
-              digital.
+              Soluciones simples y accesibles con validación ANSES y todos los
+              bancos.
             </p>
           </div>
 
@@ -34,7 +34,7 @@ function ServicesSection() {
           <div className="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition">
             <div className="text-green-600 mb-4"></div>
             <h3 className="font-semibold text-lg mb-2 text-blue-900">
-              Gestión 100% digital
+              Gestión 100% online
             </h3>
             <p className="text-sm text-gray-700">
               Completamente desde tu celular, sin trámites presenciales ni
