@@ -15,7 +15,6 @@ function ContactSection() {
             method="POST"
             name="contact"
             className="grid gap-6 text-left"
-            data-netlify="true"
             data-netlify-honeypot="bot-field"
             data-netlify-recaptcha="true"
             netlify
