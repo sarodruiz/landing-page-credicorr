@@ -6,27 +6,32 @@ function ContactSection() {
           Envianos tu consulta
         </h2>
         <p className="text-gray-700 text-center mb-8 text-base md:text-lg">
-          Completá el siguiente formulario y te responderemos a la brevedad.
+          Enviaron tu consulta por WhatsApp, o completá el siguiente formulario
+          y te responderemos a la brevedad.
         </p>
-
         <div className="grid md:grid-cols-2 gap-12">
           {/* Formulario de contacto */}
           <form
-            action="https://formspree.io/f/XXXXXXXX" // Reemplazá con tu endpoint
             method="POST"
+            name="contact"
             className="grid gap-6 text-left"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+            data-netlify-recaptcha="true"
           >
+            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="bot-field" />
             <div>
               <label
-                htmlFor="nombre"
+                htmlFor="name"
                 className="block text-sm font-medium text-blue-900 mb-1"
               >
                 Nombre <span className="text-red-500">*</span>
               </label>
               <input
                 type="text"
-                name="nombre"
-                id="nombre"
+                name="name"
+                id="name"
                 required
                 className="w-full px-4 py-2 rounded border border-gray-300 focus:ring-2 focus:ring-blue-300"
                 placeholder="Ej: María González"
@@ -52,14 +57,14 @@ function ContactSection() {
 
             <div>
               <label
-                htmlFor="mensaje"
+                htmlFor="message"
                 className="block text-sm font-medium text-blue-900 mb-1"
               >
-                Consulta <span className="text-red-500">*</span>
+                Mensaje <span className="text-red-500">*</span>
               </label>
               <textarea
-                name="mensaje"
-                id="mensaje"
+                name="message"
+                id="message"
                 rows="5"
                 required
                 className="w-full px-4 py-2 rounded border border-gray-300 focus:ring-2 focus:ring-blue-300"
