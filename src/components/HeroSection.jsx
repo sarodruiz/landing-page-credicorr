@@ -15,7 +15,7 @@ function HeroSection() {
         />
       </Helmet>
 
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
+      <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10">
         {/* Texto */}
         <div className="md:w-1/2 text-center md:text-left">
           <h1 className="text-3xl font-extrabold tracking-wide text-blue-900 mb-2">
@@ -52,9 +52,9 @@ function HeroSection() {
         {/* Imagen */}
         <div className="md:w-1/2">
           <img
-            src="assets/hero-image.png"
+            src="assets/hero-image.jpg"
             alt="Cliente satisfecho usando su celular para solicitar un préstamo desde CREDICORR"
-            className="w-full h-auto max-h-[500px] rounded-xl shadow-lg object-cover"
+            className="w-full h-auto rounded-xl shadow-xl object-cover"
           />
         </div>
       </div>

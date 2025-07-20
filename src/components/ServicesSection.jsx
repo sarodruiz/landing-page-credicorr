@@ -25,8 +25,8 @@ function ServicesSection() {
               Préstamos ANSES
             </h3>
             <p className="text-sm text-gray-700">
-              Pensado para jubilados. Tramitamos tu préstamo con cualquier
-              banco, de manera segura y simple.
+              Tramitamos tu préstamo con cualquier banco, de manera segura y
+              simple.
             </p>
           </div>
 
@@ -37,8 +37,8 @@ function ServicesSection() {
               Gestión 100% online
             </h3>
             <p className="text-sm text-gray-700">
-              Completamente desde tu celular, sin trámites presenciales ni
-              demoras.
+              Completamente desde tu celular, sin necesidad de trámites
+              presenciales.
             </p>
           </div>
         </div>
