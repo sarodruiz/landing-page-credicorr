@@ -8,19 +8,22 @@ function InfoSection() {
             Honestidad y confianza
           </h2>
           <p className="text-gray-800 text-base md:text-lg mb-6">
-            En CREDICORR llevamos más de 20 años acompañando a jubilados,
-            pensionados, docentes, municipales y personal de las fuerzas armadas
-            desde nuestra oficina en San Justo. Nos especializamos en{" "}
-            <span className="font-semibold text-blue-800">créditos ANSES</span>{" "}
-            con firma digital, atención cercana y gestión 100% online.
+            En CREDICORR tenemos más de 20 años de trayectoria acompañando a
+            jubilados, pensionados, docentes, personal municipal y de las
+            fuerzas armadas. Estamos en San Justo, listos para brindarte
+            atención personalizada en todo momento.
+          </p>
+          <p className="text-gray-800 text-base md:text-lg mb-6">
+            Escribinos hoy y recibí asesoramiento gratuito, sin trámites
+            complejos ni compromisos. Estamos para ayudarte a encontrar el
+            préstamo que mejor se adapta a tu situación.
           </p>
           <ul className="list-disc list-inside text-blue-800 text-sm md:text-base space-y-2">
             <li>
-              Elegí atención <strong>presencial</strong> o{" "}
-              <strong>digital</strong>
+              Atención <strong>presencial</strong> o <strong>digital</strong>
             </li>
-            <li>Sin trámites complicados</li>
-            <li>Respuesta en menos de 24 horas</li>
+            <li>Gestión simple y sin complicaciones</li>
+            <li>Respuesta rápida: en menos de 24 horas</li>
           </ul>
         </div>
 
