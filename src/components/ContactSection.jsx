@@ -12,15 +12,15 @@ function ContactSection() {
         <div className="grid md:grid-cols-2 gap-12">
           {/* Formulario de contacto */}
           <form
-            action="/"
-            method="POST"
-            name="contact"
+            // action="/"
             className="grid gap-6 text-left"
-            data-netlify-honeypot="bot-field"
-            data-netlify-recaptcha="true"
+            // data-netlify-honeypot="bot-field"
+            // data-netlify-recaptcha="true"
+            method="POST"
+            name="contact v1"
             netlify
           >
-            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="form-name" value="contact v1" />
             <input type="hidden" name="bot-field" />
             <div>
               <label
