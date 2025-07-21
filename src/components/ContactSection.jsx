@@ -6,8 +6,8 @@ function ContactSection() {
           Envianos tu consulta
         </h2>
         <p className="text-gray-700 text-center mb-8 text-base md:text-lg">
-          Enviaron tu consulta por WhatsApp, o completá el siguiente formulario
-          y te responderemos a la brevedad.
+          Escribinos por WhatsApp, o completá el siguiente formulario y te
+          responderemos a la brevedad.
         </p>
         <div className="grid md:grid-cols-2 gap-12">
           {/* Formulario de contacto */}
