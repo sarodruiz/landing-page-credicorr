@@ -12,6 +12,7 @@ function ContactSection() {
         <div className="grid md:grid-cols-2 gap-12">
           {/* Formulario de contacto */}
           <form
+            action="/"
             method="POST"
             name="contact"
             className="grid gap-6 text-left"
