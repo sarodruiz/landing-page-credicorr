@@ -17,7 +17,6 @@ function ContactSection() {
             className="grid gap-6 text-left"
             data-netlify-honeypot="bot-field"
             data-netlify-recaptcha="true"
-            netlify
           >
             <input type="hidden" name="form-name" value="contact" />
             <input type="hidden" name="bot-field" />
