@@ -17,10 +17,10 @@ function ContactSection() {
             // data-netlify-honeypot="bot-field"
             // data-netlify-recaptcha="true"
             method="POST"
-            name="contact v1"
+            name="contact"
             netlify
           >
-            <input type="hidden" name="form-name" value="contact v1" />
+            <input type="hidden" name="form-name" value="contact" />
             <input type="hidden" name="bot-field" />
             <div>
               <label
