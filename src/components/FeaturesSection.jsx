@@ -51,7 +51,7 @@ function InfoSection() {
             </p>
           </div>
 
-          {/* Feature 3 actualizada */}
+          {/* Feature 3 */}
           <div className="flex flex-col items-center text-center md:items-start md:text-left">
             <div className="text-green-600 mb-4">
               <svg
@@ -62,15 +62,10 @@ function InfoSection() {
                 stroke="currentColor"
               >
                 <path
-                  strokeWidth="1.5"
-                  d="M12 3v3m6.6 1.4l-2.1 2.1M21 12h-3m-1.4 6.6l-2.1-2.1M12 21v-3M5.4 18.6l2.1-2.1M3 12h3m1.4-6.6l2.1 2.1"
-                />
-                <circle
-                  cx="12"
-                  cy="12"
-                  r="3"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M5 13l4 4L19 7"
                 />
               </svg>
             </div>
