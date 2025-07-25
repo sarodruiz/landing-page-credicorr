@@ -1,4 +1,4 @@
-function InfoSection() {
+function FeaturesSection() {
   return (
     <section className="bg-slate-50 py-16 px-6 md:px-16">
       <div className="max-w-5xl mx-auto">
@@ -82,4 +82,4 @@ function InfoSection() {
   );
 }
 
-export default InfoSection;
+export default FeaturesSection;
