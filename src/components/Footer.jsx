@@ -5,6 +5,11 @@ function Footer() {
         {/* Logo / Marca */}
         <div className="text-center md:text-left">
           <h3 className="text-xl font-bold mb-2">CREDICORR</h3>
+          {/* <img
+            src="assets/credicorr-logo.png"
+            alt="Logo Credicorr"
+            className="bg-white rounded"
+          /> */}
           <p className="text-sm text-blue-200">
             Soluciones financieras claras y accesibles.
           </p>
@@ -76,7 +81,7 @@ function Footer() {
                 d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
               />
             </svg>
-            <span>11-2515-0062</span>
+            <span>11-6352-0061</span>
           </div>
 
           {/* Email */}
@@ -96,7 +101,7 @@ function Footer() {
               />
             </svg>
             <a href="mailto:consultas@credicorr.com" className="underline">
-              consultas@credicorr.com
+              credicorrsj@gmail.com
             </a>
           </div>
         </div>

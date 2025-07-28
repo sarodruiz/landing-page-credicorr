@@ -22,6 +22,7 @@ function HeroSection() {
             <span className="text-green-600">$</span>
             <span className="ml-1">CREDICORR</span>
           </h1>
+          {/* <img src="assets/credicorr-logo.png" alt="Logo Credicorr" /> */}
 
           <h2 className="text-4xl md:text-5xl font-bold text-blue-900 leading-tight mb-4">
             Tu préstamo, más cerca de lo que pensás
@@ -38,7 +39,7 @@ function HeroSection() {
 
           <div className="flex flex-col sm:flex-row justify-center md:justify-start items-center gap-4">
             <a
-              href="https://wa.me/549XXXXXXXXXX"
+              href="https://wa.me/5491163520061"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg text-lg font-semibold transition-all duration-200 transform hover:scale-105"
