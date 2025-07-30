@@ -4,12 +4,14 @@ function Footer() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-start md:items-center">
         {/* Logo / Marca */}
         <div className="text-center md:text-left">
-          <h3 className="text-xl font-bold mb-2">CREDICORR</h3>
-          {/* <img
-            src="assets/credicorr-logo.png"
-            alt="Logo Credicorr"
-            className="bg-white rounded"
-          /> */}
+          {/* <h3 className="text-xl font-bold mb-2">CREDICORR</h3> */}
+          <div className="inline-block outline-white rounded p-1">
+            <img
+              src="/assets/credicorr-logo-blanco.png"
+              alt="Logo CREDICORR"
+              className="h-10 w-auto"
+            />
+          </div>
           <p className="text-sm text-blue-200">
             Soluciones financieras claras y accesibles.
           </p>
