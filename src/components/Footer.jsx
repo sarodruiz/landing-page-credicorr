@@ -4,7 +4,6 @@ function Footer() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-start md:items-center">
         {/* Logo / Marca */}
         <div className="text-center md:text-left">
-          {/* <h3 className="text-xl font-bold mb-2">CREDICORR</h3> */}
           <div className="inline-block outline-white rounded p-1">
             <img
               src="/assets/credicorr-logo-blanco.png"

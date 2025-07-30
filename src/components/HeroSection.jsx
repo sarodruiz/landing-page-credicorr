@@ -18,13 +18,8 @@ function HeroSection() {
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10">
         {/* Texto */}
         <div className="md:w-1/2 text-center md:text-left">
-          {/* <h1 className="text-3xl font-extrabold tracking-wide text-blue-900 mb-2">
-            <span className="text-green-600">$</span>
-            <span className="ml-1">CREDICORR</span>
-          </h1> */}
-
           <img
-            src="assets/credicorr-logo.png" // Usá la ruta correcta al archivo exportado
+            src="assets/credicorr-logo.png"
             alt="Logo CREDICORR"
             className="h-12 w-auto mb-2 mx-auto md:mx-0"
           />
