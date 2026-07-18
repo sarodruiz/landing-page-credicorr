@@ -16,7 +16,7 @@ function Footer() {
           </p>
         </div>
 
-        {/* Ubicación centrada */}
+        {/* Ubicación */}
         <div className="flex flex-col items-center text-center md:col-start-2 md:col-span-1 md:items-center md:text-center">
           <h4 className="font-semibold text-base mb-2">Ubicación</h4>
           <div className="flex items-center justify-center gap-2 text-sm text-blue-100">
